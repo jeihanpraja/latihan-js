@@ -1,10 +1,13 @@
-const arr = [100, 200, 300];
+const sheet = [];
 
-const arr2 = [];
+//deklarasi baris pada array
+sheet[0] = [];
+sheet[1] = [];
+sheet[2] = [];
 
-arr2[0] = 100;
-arr2[1] = 200;
-arr2[2] = 300;
+//deklarasi kolom pada array
+sheet[0][0] = 100; sheet[0][1] = 200; sheet[0][2] = 300;
+sheet[1][0] = 400; sheet[1][1] = 500; sheet[1][2] = 600;
+sheet[2][0] = 700; sheet[2][1] = 800; sheet[2][2] = 900;
 
-console.log(arr);
-console.log(arr2);
+console.log(sheet);
